@@ -12,21 +12,23 @@ Claude also picks the skills up by itself when a request fits.
 
 ## Install
 
-In Claude Code:
-
-```
-/plugin marketplace add xternal/agent-hands-skills
-/plugin install agent-hands@agent-hands
-```
-
-Or from a shell:
+From a shell (works with every version of Claude Code, including alongside the desktop app):
 
 ```bash
 claude plugin marketplace add xternal/agent-hands-skills
 claude plugin install agent-hands@agent-hands
 ```
 
-Then run `/mcp`, choose the agent-hands server and sign in with your email (a 6-digit code or a link), then press Allow.
+Or inside the terminal version of Claude Code:
+
+```
+/plugin marketplace add xternal/agent-hands-skills
+/plugin install agent-hands@agent-hands
+```
+
+Then sign in once: start `claude` in a terminal, type `/mcp`, choose `plugin:agent-hands:agent-hands` and sign in with your email (a 6-digit code or a link), then press Allow.
+
+Already added Agent Hands as a connector on claude.ai? Claude Code has it too, so the skills are the only new part. You may then see two Agent Hands servers in `/mcp`; either works.
 
 Only want the connector, without the skills?
 
