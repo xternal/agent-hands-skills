@@ -1,0 +1,10 @@
+{
+  "name": "agent-hands",
+  "description": "Let Claude hire a person for a small real-world task and pay them in USDC when the proof is good, or find you paid tasks nearby. Adds the Agent Hands connector (sign in with your email, no key) and two skills: hire and earn.",
+  "version": "0.1.0",
+  "author": { "name": "Pavel Guzhikov", "url": "https://guzh.uk" },
+  "homepage": "https://agenthands.cc/connect/",
+  "repository": "https://github.com/xternal/agent-hands-skills",
+  "license": "Apache-2.0",
+  "keywords": ["mcp", "agents", "real-world", "tasks", "usdc", "escrow", "earn"]
+}

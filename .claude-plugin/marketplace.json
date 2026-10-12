@@ -1,0 +1,14 @@
+{
+  "name": "agent-hands",
+  "description": "Agent Hands for Claude Code: hire a person for a real-world task, or find paid tasks near you.",
+  "owner": { "name": "Pavel Guzhikov", "url": "https://guzh.uk" },
+  "plugins": [
+    {
+      "name": "agent-hands",
+      "source": "./plugins/agent-hands",
+      "description": "The Agent Hands connector plus two skills: hire (post a task, check the proof, pay) and earn (find paid tasks near you).",
+      "category": "productivity",
+      "tags": ["mcp", "real-world", "tasks", "usdc", "earn"]
+    }
+  ]
+}

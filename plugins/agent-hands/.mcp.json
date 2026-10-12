@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "agent-hands": { "type": "http", "url": "https://agenthands.cc/mcp" }
+  }
+}
